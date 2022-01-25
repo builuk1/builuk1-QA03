@@ -83,3 +83,12 @@ for i in range(height):
         print(width * symbol)
     else:
         print(symbol + ((width - 2) * space) + symbol)
+
+import random
+width = 3
+height = 3
+for i in range(height):
+    for j in range(width):
+        sym = random.randint(1, 9)
+        print(f"{sym}",end=' ')
+    print()
