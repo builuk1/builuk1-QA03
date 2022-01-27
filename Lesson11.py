@@ -1,8 +1,10 @@
 #Камень Ножницы Бумага
 #Rock Paper Scissors
+import random
 game = True
 global_player1_score = 0
 global_player2_score = 0
+game_type = 'pvp'#pve
 while game:
     #Variables
     player1_choice = ''
@@ -10,7 +12,11 @@ while game:
     player1_score = 0
     player2_score = 0
     player1_name = str(input("Enter your name player 1 : "))
-    player2_name = str(input("Enter your name player 2 : "))
+    player2_name = 'Unknown'
+    if game_type == 'pvp':
+        player2_name = str(input("Enter your name player 2 : "))
+    elif game_type == 'pve':
+        player2_name = 'Bot'
     rounds = 3
 
     #Start of game
@@ -21,7 +27,10 @@ while game:
         while player1_choice != 'r' and  player1_choice != 'p' and player1_choice != 's':
             player1_choice = str(input(f"Enter your choice {player1_name}: [r],[p],[s] : "))
         while player2_choice != 'r' and player2_choice != 'p' and player2_choice != 's':
-            player2_choice = str(input(f"Enter your choice {player2_name}: [r],[p],[s] : "))
+            if game_type == 'pvp':
+                player2_choice = str(input(f"Enter your choice {player2_name}: [r],[p],[s] : "))
+            elif game_type == 'pve':
+                player2_name = random.choice('rps')#Выбирает 1 символ l - lizard, k - Spock
         #Compare data
 
         # if player1_choice == 'r':
