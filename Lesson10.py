@@ -87,8 +87,17 @@ for i in range(height):
 import random
 width = 3
 height = 3
+
 for i in range(height):
+    print('|',end='')
     for j in range(width):
         sym = random.randint(1, 9)
-        print(f"{sym}",end=' ')
+        print(f"-{sym}",end='-|')
     print()
+
+import random
+width = 3
+height = 3
+sym = random.randint(1, 9)
+for i in range(height):
+    print(f"|-{sym}-" * width, end='|\n')
