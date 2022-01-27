@@ -1,6 +1,7 @@
 #Крестики Нолики
 #Tic Tac Toe
 #Variables
+count = 0
 player1_symbol = 'X'
 player2_symbol = 'O'
 player1_choice = '0'
@@ -19,7 +20,7 @@ turn = 'X'
 # print(board_1,board_2,board_3)
 # print(board_4,board_5,board_6)
 # print(board_7,board_8,board_9)
-for i in range(5):
+while count <= 9:
     #Show board (pro)
     board = f'{board_1}|{board_2}|{board_3}\n-----\n{board_4}|{board_5}|{board_6}\n-----\n{board_7}|{board_8}|{board_9}'
     print(board)
@@ -55,7 +56,7 @@ for i in range(5):
         elif player1_choice == board_9:
             board_9 = player1_symbol
             break
-
+    count = count + 1
     #Check winner(simple)
     if board_1 == board_2 == board_3:
         if board_1 == player1_symbol:
@@ -117,6 +118,8 @@ for i in range(5):
     board = f'{board_1}|{board_2}|{board_3}\n-----\n{board_4}|{board_5}|{board_6}\n-----\n{board_7}|{board_8}|{board_9}'
     print(board)
 
+    if count == 9:
+        break
     while True:
         #Game choice
         player2_choice = str(input(f'Enter your choice {player2_symbol}: '))
@@ -148,7 +151,7 @@ for i in range(5):
         elif player2_choice == board_9:
             board_9 = player2_symbol
             break
-
+    count = count + 1
     #Check winner(simple)
     if board_1 == board_2 == board_3:
         if board_1 == player1_symbol:
@@ -206,3 +209,4 @@ for i in range(5):
         elif board_1 == player2_symbol:
             print('Player 2 win!')
             break
+
