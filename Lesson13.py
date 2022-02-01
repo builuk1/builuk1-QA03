@@ -42,7 +42,7 @@
 # цифр в строке. Выведите оба
 # количества на экран.'''
 # #V1
-# letters = 'abcdefghijklmnopqrstuvxyz'
+# letters = 'abcdefghijklmnopqrstuvwxyz'
 # numbers = '0123456789'
 # s = 'hello123'
 # count_numbers = 0
@@ -80,12 +80,12 @@
 Пользователь вводит с клавиатуры строку и символ
 для поиска. Посчитайте сколько раз в строке встречается
 искомый символ. Полученное число выведите на экран.'''
-s = 'Abrakadabra'
-symbol = 'a'
-count = 0
-for i in range(len(s)):
-    if s[i] == symbol:
-        count = count + 1
-print(count)
-
-print(s.count(symbol))
+# s = 'Abrakadabra'
+# symbol = 'a'
+# count = 0
+# for i in range(len(s)):
+#     if s[i] == symbol:
+#         count = count + 1
+# print(count)
+#
+# print(s.count(symbol))
