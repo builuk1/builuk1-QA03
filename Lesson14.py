@@ -108,3 +108,18 @@ print(count_symbol, count_number, count_spe,count_spea)
 word = 'Hello World!'
 print(word.find('l'))
 print(word.rfind('l'))
+
+#https://docs.python.org/3/library/stdtypes.html#string-methods
+#https://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html
+
+weight = '44'#str(input('Enter your weight : '))
+if weight.isnumeric():
+    weight = int(weight)
+    if weight < 0:
+        print('error-')
+    elif weight > 150:
+        print('error+')
+    elif weight < 150:
+        print('Your weight is', weight)
+    else:
+        print('Oversize')
