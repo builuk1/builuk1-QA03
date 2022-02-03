@@ -123,3 +123,34 @@ if weight.isnumeric():
         print('Your weight is', weight)
     else:
         print('Oversize')
+
+
+n = 0
+maximum = -10000000
+minimum = -10000000
+count = 0
+summa = 0
+av = 0
+while n != 7:
+    if maximum == -10000000:
+        maximum = n
+    if minimum == -10000000:
+        minimum = n
+    n = int(input("Enter number : "))
+    if n > maximum:
+        maximum = n
+    if n < minimum:
+        minimum = n
+    count = count + 1
+    summa = summa + n
+    av = summa / count
+
+s = ''
+while True:
+    num = input('Please, enter a number:')
+    for i in range(len(num)):
+        if num[i] == '6' or num[i] == '3':
+            continue
+        else:
+            s = s + num[i]
+print(int(s))
