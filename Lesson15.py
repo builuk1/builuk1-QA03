@@ -142,10 +142,11 @@ maximum_index = 0
 for index in range(len(numbers)):
     if index % 3 == 0 and index != 0:
         mult_3 = mult_3 * numbers[index]
-    if minimum < numbers[index]:
+        # numbers = [1, 2, 3, 4, -5, 6, 35, -1, -4, 9, 20, 21, 15]
+    if minimum > numbers[index]:
         minimum = numbers[index]
         minimum_index = index
-    if maximum > numbers[index]:
+    if maximum < numbers[index]:
         maximum = numbers[index]
         maximum_index = index
 mult_numbers = []
