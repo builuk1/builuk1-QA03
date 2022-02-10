@@ -65,3 +65,53 @@ print(upper_text)
 # 'slavery' == 'slavery.' 1.0 FALSE
 # 'slavery' in 'slavery.' 2.0 TRUE
 # 'slavery' in 'slavery' 2.0 TRUE
+s1 = [4,1,2,3,4]
+s2 = [3,10,2,5,7]
+mini = s1[0]
+maxi = s1[0]
+s_minmax = []
+for n in range(len(s1)):
+    if mini > s1[n]:
+        mini = s1[n]
+        s_minmax.append(mini)
+    if maxi < s1[n]:
+        maxi = s1[n]
+        s_minmax.append(maxi)
+print(mini, maxi)
+mini = s2[0]
+maxi = s2[0]
+for n in range(len(s2)):
+    if mini > s2[n]:
+        mini = s2[n]
+        s_minmax.append(mini)
+    if maxi < s2[n]:
+        maxi = s2[n]
+        s_minmax.append(maxi)
+print(s_minmax)
+
+'''# ■ Сформировать третий список, содержащий только уникальные элементы каждого из списков;
+# ■ Сформировать третий список, содержащий только минимальное и максимальное значение каждого из списков.'''
+s1 = [1,2,3,4]
+s2 = [1,2,5,6,8]
+s3 = s1[:]
+for s in s2:
+    if s not in s3:
+        s3.append(s)
+
+s1 = [1,2,3,4]
+s2 = [1,2,5,6,8]
+s3 = s1[:]
+for s in s2:
+    if s in s3:
+        continue
+    else:
+        s3.append(s)
+
+
+s1 = [1,2,3,4]
+s2 = [1,2,5,6,8]
+s_rr = s1[:]
+for i in s2:
+    if i not in s_rr:
+        s_rr.append(i)
+print(s_rr)
