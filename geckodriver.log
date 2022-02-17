@@ -45,3 +45,30 @@ DevTools listening on ws://localhost:56332/devtools/browser/e70afbae-3377-40c0-9
 
 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
 
+1645122063078	geckodriver	INFO	Listening on 127.0.0.1:51544
+1645122063127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51545" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileP81nkh"
+1645122064858	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileP81nkh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51545/devtools/browser/ae9e932e-4de7-4ed9-9f93-524034729cbf
+1645122070401	Marionette	INFO	Listening on port 51548
+1645122070676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645122103358	Marionette	INFO	Stopped listening on port 51548
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Could not write session state file " (new Error("IOUtils: Shutting down and refusing additional I/O tasks", (void 0), 106)) "DOMException@resource://gre/modules/PromiseWorker.jsm:106:18\npostMessage@resource://gre/modules/PromiseWorker.jsm:342:55\nobserve@resource://gre/modules/AsyncShutdown.jsm:575:16\n"
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1645122504932	geckodriver	INFO	Listening on 127.0.0.1:64884
+1645122505455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64885" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileTawgOq"
+1645122506586	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileTawgOq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64885/devtools/browser/4bbf21c2-2c3c-4fcd-acdd-79a0edbb2336
+1645122511552	Marionette	INFO	Listening on port 64888
+1645122511874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645122522115	Marionette	INFO	Stopped listening on port 64888
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645123087391	geckodriver	INFO	Listening on 127.0.0.1:49196
+1645123087948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49197" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilecrk5gY"
+1645123090508	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilecrk5gY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49197/devtools/browser/145872a1-3867-4e8b-adaa-4ccfb033dc80
+1645123099355	Marionette	INFO	Listening on port 49200
+1645123099561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
