@@ -11,12 +11,12 @@
 import os
 import time
 from selenium import webdriver
-
-driver_path_chrome = os.getcwd() + '\chromedriver.exe'
-driver_path_firefox = os.getcwd() + '\geckodriver.exe'
-# driver = webdriver.Chrome(executable_path=driver_path_chrome)
+from selenium.webdriver.firefox.service import Service
+driver_path_chrome = Service(os.getcwd() + '\drivers\chromedriver.exe')
+driver_path_firefox = Service(os.getcwd() + '\drivers\geckodriver.exe')
+# driver = webdriver.Chrome(service=driver_path_chrome)
 # driver.get('https://chromedriver.chromium.org/downloads')
-driver = webdriver.Firefox(executable_path=driver_path_firefox)
+driver = webdriver.Firefox(service=driver_path_firefox)
 driver.maximize_window()
 # driver.set_window_size(300,100)
 driver.get('https://chromedriver.chromium.org/downloads')
