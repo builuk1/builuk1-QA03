@@ -31,3 +31,7 @@ button_start_xpath_full = '/html/body/div[2]/main/cach/div[2]/div/div/div/div[2]
 button_start = driver.find_element('xpath',button_start_xpath_full)
 time.sleep(2)
 button_start.click()
+ex1_a_xpath = '/html/body/div[2]/main/cach/div[3]/div[1]/div[3]/div[1]/div/img'
+ex1_b_xpath = '/html/body/div[2]/main/cach/div[3]/div[1]/div[3]/div[2]/div/img'
+button_ex1 = driver.find_element('xpath',ex1_a_xpath)
+button_ex1.click()
