@@ -24,8 +24,10 @@ button_51_60 = driver.find_element('xpath',button_51_60_xpath)
 print(button_51_60.text)
 button_18_50 = driver.find_element('xpath',button_18_50_xpath)
 print(button_18_50.text)
+time.sleep(2)
 button_18_50.click()
 button_start_xpath = '//*[@id="startTest"]'
 button_start_xpath_full = '/html/body/div[2]/main/cach/div[2]/div/div/div/div[2]/button'
 button_start = driver.find_element('xpath',button_start_xpath_full)
+time.sleep(2)
 button_start.click()
