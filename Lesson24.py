@@ -1,4 +1,5 @@
 import os
+import random
 import time
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as SF
@@ -31,7 +32,24 @@ button_start_xpath_full = '/html/body/div[2]/main/cach/div[2]/div/div/div/div[2]
 button_start = driver.find_element('xpath',button_start_xpath_full)
 time.sleep(2)
 button_start.click()
-ex1_a_xpath = '/html/body/div[2]/main/cach/div[3]/div[1]/div[3]/div[1]/div/img'
-ex1_b_xpath = '/html/body/div[2]/main/cach/div[3]/div[1]/div[3]/div[2]/div/img'
-button_ex1 = driver.find_element('xpath',ex1_a_xpath)
-button_ex1.click()
+#Долго, но понятно
+# ex1_a_xpath = '/html/body/div[2]/main/cach/div[3]/div[1]/div[3]/div[1]/div/img'
+# ex1_b_xpath = '/html/body/div[2]/main/cach/div[3]/div[1]/div[3]/div[2]/div/img'
+# button_ex1 = driver.find_element('xpath',ex1_a_xpath)
+# button_ex1.click()
+# ex2_a_xpath = '/html/body/div[2]/main/cach/div[3]/div[2]/div[3]/div[1]/div/img'
+# ex2_b_xpath = '/html/body/div[2]/main/cach/div[3]/div[2]/div[3]/div[2]/div/img'
+# button_ex2 = driver.find_element('xpath',ex2_a_xpath)
+# button_ex2.click()
+#Не понятно, но быстро
+# for i in range(1,36):
+#     universal_xpath = f'/html/body/div[2]/main/cach/div[3]/div[{str(i)}]/div[3]/div[{str(random.randint(1,6))}]/div/img'
+#     button_uni = driver.find_element('xpath', universal_xpath)
+#     button_uni.click()
+#С ответами
+d = {'1':'1','2':'3','3':'2'}
+for k in d:
+    time.sleep(2)
+    universal_xpath = f'/html/body/div[2]/main/cach/div[3]/div[{str(k)}]/div[3]/div[{str(d[k])}]/div/img'
+    button_uni = driver.find_element('xpath', universal_xpath)
+    button_uni.click()
