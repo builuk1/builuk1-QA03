@@ -18,24 +18,29 @@ reg_xpath = '//a[@href="/register/"]'
 reg_button = driver.find_element('xpath',reg_xpath)
 reg_button.click()
 email = 'andrii.builuk4@gmail.com'
-email_xpath = '//input[@name="email"]'
+email_xpath = '//input[@name="email"]/following::input[@name="email"]'
 email_entry = driver.find_element('xpath',email_xpath)
 email_entry.send_keys(email)
+time.sleep(7)
 name = 'andrii42'
-name_xpath = '//input[@name="nick"]'
+name_xpath = '//input[@name="nick"]/following:://input[@name="nick"]'
 name_entry = driver.find_element('xpath',name_xpath)
 name_entry.send_keys(name)
+time.sleep(7)
 password = 'andrii421'
-password_xpath = '//input[@name="password1"]'#//input[@type="password"]/following::input[@type="password"]
+password_xpath = '//input[@type="password"]/following::input[@type="password"]'
 password_entry = driver.find_element('xpath',password_xpath)
 password_entry.send_keys(password)
+time.sleep(7)
 password_c = 'andrii42'
-password_c_xpath = '//input[@name="password2"]'#//input[@type="password"]/following::input[@type="password"]/following::input[@type="password"]
+password_c_xpath = '//input[@type="password"]/following::input[@type="password"]/following::input[@type="password"]'
 password_c_entry = driver.find_element('xpath',password_c_xpath)
 password_c_entry.send_keys(password_c)
+time.sleep(7)
 gender_xpath = '//input[@name="gender" and @value="m"]'
 gender_radio = driver.find_element('xpath',gender_xpath)
 gender_radio.click()
+time.sleep(7)
 finish_xpath = '//input[@value="Зарегистрироваться"]'
 finish_b = driver.find_element('xpath',finish_xpath)
 finish_b.click()

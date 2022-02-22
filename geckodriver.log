@@ -376,3 +376,64 @@ JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
 JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+1645558604605	geckodriver	INFO	Listening on 127.0.0.1:53633
+1645558605259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53634" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilek8aNlD"
+1645558606783	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilek8aNlD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53634/devtools/browser/7a0a78a6-508a-4f7c-8e5b-44f265a4b46b
+1645558614172	Marionette	INFO	Listening on port 53637
+1645558614351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+1645558685684	geckodriver	INFO	Listening on 127.0.0.1:62857
+1645558686314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62858" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilefBRTBm"
+1645558687922	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilefBRTBm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62858/devtools/browser/963932c3-3875-4c03-861f-9ee0b3a4278d
+1645558695674	Marionette	INFO	Listening on port 62862
+1645558695964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+1645558822857	geckodriver	INFO	Listening on 127.0.0.1:63407
+1645558823566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63408" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilegdz5nW"
+1645558825549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilegdz5nW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63408/devtools/browser/b01aee60-2614-47df-95ab-7194da4ea1e5
+1645558834335	Marionette	INFO	Listening on port 63411
+1645558834587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645558909485	geckodriver	INFO	Listening on 127.0.0.1:53725
+1645558910002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53726" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileacPPBk"
+1645558912716	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileacPPBk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53726/devtools/browser/2d2b40dd-da38-4547-84de-7ab1ac55f53b
+1645558925833	Marionette	INFO	Listening on port 53729
+1645558926423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
