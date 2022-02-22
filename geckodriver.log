@@ -260,3 +260,119 @@ DevTools listening on ws://localhost:55254/devtools/browser/6d2a9df3-e1b7-4311-a
 1645556660509	Marionette	INFO	Listening on port 55258
 1645556661011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1645556775049	Marionette	INFO	Stopped listening on port 55258
+1645557250211	geckodriver	INFO	Listening on 127.0.0.1:56960
+1645557250758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56961" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilesyIhsB"
+1645557251989	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilesyIhsB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56961/devtools/browser/9d9de2f5-d5d0-4c18-b15b-98f2657b3999
+1645557258338	Marionette	INFO	Listening on port 56964
+1645557258563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:showuserinfo()'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:448:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:412:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2129:35
+addAllSources@resource://devtools/server/actors/thread.js:1484:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:152:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:624:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:530:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:showuserinfo()'
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645557595206	Marionette	INFO	Stopped listening on port 56964
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Green\AppData\Local\Temp\rust_mozprofilesyIhsB\protections.sqlite
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+ly_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+1645557600961	geckodriver	INFO	Listening on 127.0.0.1:54378
+1645557601490	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54379" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileus9XF5"
+1645557602657	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileus9XF5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54379/devtools/browser/a2441a05-869e-4875-99a1-ddaaf2387305
+1645557608086	Marionette	INFO	Listening on port 54383
+1645557608151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+1645557634415	geckodriver	INFO	Listening on 127.0.0.1:54470
+1645557634962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54471" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileRaqYvj"
+1645557636115	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileRaqYvj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54471/devtools/browser/8290162e-5121-435a-8d91-8ca4e47f1d41
+1645557641713	Marionette	INFO	Listening on port 54474
+1645557641991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+1645558029868	geckodriver	INFO	Listening on 127.0.0.1:53953
+1645558030385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53954" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileUJioPm"
+1645558031913	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileUJioPm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53954/devtools/browser/35e0f86d-c7f9-4c0d-9bc0-603cb6daffac
+1645558043476	Marionette	INFO	Listening on port 53957
+1645558043979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
+JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
+JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
