@@ -24,5 +24,9 @@ q19_a = driver.find_element('xpath',q19_xpath)
 q19_a.click()
 time.sleep(3)
 q19_a.click()
+q21_xpath = '//input[@name = "q21" and @value = "c"]'
+q21_c = driver.find_element('xpath',q21_xpath)
+q21_c.click()
+
 '/html/body/div/div/div/main/div[4]/div[2]/div/form/table[1]/tbody/tr[2]/td[3]/input'
 '/html/body/div/div/div/main/div[3]/div[2]/div/form/table[1]/tbody/tr[2]/td[3]/input'
