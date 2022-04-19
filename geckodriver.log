@@ -350,10 +350,11 @@ JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
 JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-1645557634415	geckodriver	INFO	Listening on 127.0.0.1:54470
-1645557634962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54471" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileRaqYvj"
-1645557636115	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileRaqYvj\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 1063) to file C:\Users\Green\AppData\Local\Temp\rust_mozprofileus9XF5\bookmarkbackups\bookmarks-2022-02-22.jsonlz4.tmp. The file may be corrupt.
+1645560121111	Marionette	INFO	Stopped listening on port 54383
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+en the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileRaqYvj\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:54471/devtools/browser/8290162e-5121-435a-8d91-8ca4e47f1d41
 1645557641713	Marionette	INFO	Listening on port 54474
 1645557641991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -363,36 +364,43 @@ JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
 JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-1645558029868	geckodriver	INFO	Listening on 127.0.0.1:53953
-1645558030385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53954" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileUJioPm"
-1645558031913	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileUJioPm\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53954/devtools/browser/35e0f86d-c7f9-4c0d-9bc0-603cb6daffac
-1645558043476	Marionette	INFO	Listening on port 53957
-1645558043979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 1052) to file C:\Users\Green\AppData\Local\Temp\rust_mozprofileRaqYvj\bookmarkbackups\bookmarks-2022-02-22.jsonlz4.tmp. The file may be corrupt.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645560121208	Marionette	INFO	Stopped listening on port 54474
+://dumskaya.net/, line 635: unreachable code after return statement
 JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
 JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
 JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-1645558604605	geckodriver	INFO	Listening on 127.0.0.1:53633
-1645558605259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53634" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilek8aNlD"
-1645558606783	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilek8aNlD\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53634/devtools/browser/7a0a78a6-508a-4f7c-8e5b-44f265a4b46b
-1645558614172	Marionette	INFO	Listening on port 53637
-1645558614351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
-JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
-JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
-JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 1057) to file C:\Users\Green\AppData\Local\Temp\rust_mozprofileUJioPm\bookmarkbackups\bookmarks-2022-02-22.jsonlz4.tmp. The file may be corrupt.
+1645560120169	Marionette	INFO	Stopped listening on port 53957
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+t/, line 192: TypeError: g(...) is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-1645558685684	geckodriver	INFO	Listening on 127.0.0.1:62857
-1645558686314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62858" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilefBRTBm"
-1645558687922	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilefBRTBm\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 1064) to file C:\Users\Green\AppData\Local\Temp\rust_mozprofilek8aNlD\bookmarkbackups\bookmarks-2022-02-22.jsonlz4.tmp. The file may be corrupt.
+JavaScript error: , line 0: uncaught exception: null
+1645560120144	Marionette	INFO	Stopped listening on port 53637
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+en the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilefBRTBm\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:62858/devtools/browser/963932c3-3875-4c03-861f-9ee0b3a4278d
 1645558695674	Marionette	INFO	Listening on port 62862
 1645558695964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -402,38 +410,69 @@ JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
 JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-1645558822857	geckodriver	INFO	Listening on 127.0.0.1:63407
-1645558823566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63408" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilegdz5nW"
-1645558825549	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofilegdz5nW\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:63408/devtools/browser/b01aee60-2614-47df-95ab-7194da4ea1e5
-1645558834335	Marionette	INFO	Listening on port 63411
-1645558834587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
-JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
-JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
-JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: security-state/intermediates importChanges() IndexedDB:  importChanges() in security-state/intermediates The current transaction exceeded its quota limitations.
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: InvalidStateError: IndexedDB: security-state/onecrl importChanges() IndexedDB: collections, timestamps, records importChanges() in security-state/onecrl A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    importChanges/<@resource://services-settings/Database.jsm:116:27
+executeIDB/promise<@resource://services-settings/IDBHelpers.jsm:134:16
+executeIDB@resource://services-settings/IDBHelpers.jsm:98:17
+executeIDB@resource://services-settings/Database.jsm:376:45
+
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 1059) to file C:\Users\Green\AppData\Local\Temp\rust_mozprofilefBRTBm\bookmarkbackups\bookmarks-2022-02-22.jsonlz4.tmp. The file may be corrupt.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645560124780	Marionette	INFO	Stopped listening on port 62862
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+er is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/sites-classification importChanges() IndexedDB:  importChanges() in main/sites-classification A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 1055) to file C:\Users\Green\AppData\Local\Temp\rust_mozprofilegdz5nW\bookmarkbackups\bookmarks-2022-02-22.jsonlz4.tmp. The file may be corrupt.
+JavaScript error: , line 0: uncaught exception: null
+1645560119108	Marionette	INFO	Stopped listening on port 63411
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 22180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+//dumskaya.net"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1645558909485	geckodriver	INFO	Listening on 127.0.0.1:53725
-1645558910002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53726" "-no-remote" "-profile" "C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileacPPBk"
-1645558912716	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Green\\AppData\\Local\\Temp\\rust_mozprofileacPPBk\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53726/devtools/browser/2d2b40dd-da38-4547-84de-7ab1ac55f53b
-1645558925833	Marionette	INFO	Listening on port 53729
-1645558926423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-JavaScript warning: https://dumskaya.net/, line 635: unreachable code after return statement
-JavaScript warning: https://dumskaya.net/, line 951: unreachable code after return statement
-JavaScript error: https://dumskaya.net/, line 940: TypeError: g(...) is null
-JavaScript error: https://dumskaya.net/, line 192: TypeError: g(...) is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://dumskaya.net"
+JavaScript error: , line 0: uncaught exception: null
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/gfx getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: NotReadableError: Could not write chunk (size = 1055) to file C:\Users\Green\AppData\Local\Temp\rust_mozprofileacPPBk\bookmarkbackups\bookmarks-2022-02-22.jsonlz4.tmp. The file may be corrupt.
+JavaScript error: , line 0: uncaught exception: null
+1645560119116	Marionette	INFO	Stopped listening on port 53729
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
