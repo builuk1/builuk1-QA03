@@ -1,14 +1,22 @@
 class Mobile:
+    ram = 2
     model = 'Xiaomi Mi10'
     color = 'Grey'  # public
     _os = 'Android'  # protected
     version = '10'
     __IMEI = 1  # privat
-    blacklist = [111,222,333]
+    blacklist = [111, 222, 333]
 
     def __init__(self):
         self.__IMEI = Mobile.__IMEI
         Mobile.__IMEI = Mobile.__IMEI + 1
+
+    def show_color(self):
+        print(self.color)
+
+    def change_color(self, new_color):
+        self.color = new_color
+
     def charge(self):
         print('Charging....')
 
@@ -26,7 +34,7 @@ class Mobile:
     def __change_ram(self):
         print('You are cheater!!!')
 
-    def usb_connect(self,option='Charge'):
+    def usb_connect(self, option='Charge'):
         if option == 'Charge':
             print('Charging.........')
         elif option == 'Camera':
@@ -36,7 +44,7 @@ class Mobile:
         else:
             print('Reconnect')
 
-    def usb_connect_v2(self,Charge=False,Camera=False,FileStorage=False):
+    def usb_connect_v2(self, Charge=False, Camera=False, FileStorage=False):
         if Charge:
             print('Charging.........')
         elif Camera:
@@ -45,6 +53,7 @@ class Mobile:
             print('Ready to work!')
         else:
             print('Reconnect')
+
     def IMEI_checker(self):
         if self.__IMEI == 777:
             print('Потрачено')
@@ -53,12 +62,25 @@ class Mobile:
         else:
             print('OK')
 
+
+class PC:
+    ram = 4
+    hdd = 500
+    cpu = 2.2
+
+
+class Tablet(Mobile, PC):
+    pass
+
+
 class IPhone(Mobile):
     model = 'Iphone'
     _os = 'IOS'
 
     def Itunes(self):
         print('My music')
+
+
 my_phone = Mobile()
 
 # my_phone.__change_ram(4)
@@ -89,10 +111,13 @@ my_phone = Mobile()
 # my_phone.darknet(777)
 my_phone.usb_connect()
 my_phone.usb_connect('Camera')
-my_phone.usb_connect_v2(0,0,1)
+my_phone.usb_connect_v2(0, 0, 1)
 my_phone.darknet(222)
 my_phone.IMEI_checker()
 
 apple = IPhone()
 print(apple._os)
 apple.Itunes()
+
+IPad = Tablet()
+print(IPad.ram)
