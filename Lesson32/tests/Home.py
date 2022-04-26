@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 
+
 class BasePage:
     def __init__(self, url):
         self.driver = webdriver.Chrome()
@@ -29,6 +30,10 @@ class BasePage:
             )
         )
         product_ru_button.click()
+
+
+class Catalog(BasePage):
+    pass
 
 
 racoon = BasePage(config.url)
