@@ -4,11 +4,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
-
-
+import os
+from selenium.webdriver.chrome.service import Service as SC
 class BasePage:
     def __init__(self, url):
-        self.driver = webdriver.Chrome()
+        # self.driver = webdriver.Chrome()
+        driver_path_firefox = SC(os.getcwd() + '\chromedriver.exe')
+
+        self.driver = webdriver.Chrome(service=driver_path_firefox)
         self.url = url
 
     def get(self):
