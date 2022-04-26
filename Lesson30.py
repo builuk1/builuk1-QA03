@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from xpath import home_page
 
 # 1
 driver = webdriver.Chrome()
@@ -9,10 +10,11 @@ driver.get('http://yanigen.com.ua/ru/productstoorder')
 driver.maximize_window()
 # 2
 home_ru = "//ul[@class='menumain']/li/a[@href='/ru/']"
-# home_ru_button = driver.find_element('xpath',home_ru)
+
+# home_ru_button = driver.find_element('xpath',home_page.home_ru)
 home_ru_button = WebDriverWait(driver, 60).until(
     EC.element_to_be_clickable(
-        (By.XPATH, home_ru)
+        (By.XPATH, home_page.home_ru)
     )
 )
 home_ru_button.click()
