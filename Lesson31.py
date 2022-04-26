@@ -89,3 +89,26 @@ class Human:
             self.__graduation = new_graduation
         if self.age >= 18 and self.age <= 22 and 'Univercity' in new_graduation:
             self.__graduation = new_graduation
+
+'''Задание 1
+Создайте класс Human, который будет содержать
+информацию о человеке.
+С помощью механизма наследования, реализуйте класс
+Builder (содержит информацию о строителе), класс Sailor
+(содержит информацию о моряке), класс Pilot (содержит
+информацию о летчике).
+Каждый из классов должен содержать необходимые
+для работы методы'''
+import random
+class Builder(Human):
+    __position = str()#''Journeyman' 'Master' 'Foreman'
+
+    def __init__(self,name,surname):
+        self.name = name
+        self.surname = surname
+        self.prof = 'Builder'
+        self.age = 18
+        __graduation = random.choice(['College','Univercity'])
+
+# bender = Builder('Bender','Rodrigez')
+# print(bender)
