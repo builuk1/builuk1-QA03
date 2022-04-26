@@ -108,7 +108,21 @@ class Builder(Human):
         self.surname = surname
         self.prof = 'Builder'
         self.age = 18
-        __graduation = random.choice(['College','Univercity'])
+        self.graduation = random.choice(['Colledge','Univercity'])
 
-# bender = Builder('Bender','Rodrigez')
-# print(bender)
+    @property
+    def position(self):
+        return self.__position
+
+    @position.setter
+    def position(self,new_position):
+        if 'Colledge' in self.graduation and new_position in ['Journeyman','Master']:
+            self.__position = new_position
+        if 'Univercity' in self.graduation and new_position in ['Journeyman','Master','Foreman']:
+            self.__position = new_position
+
+bender = Builder('Bender','Rodrigez')
+print(bender)
+print(bender.graduation)
+bender.position = 'Foreman'
+print(bender.position)
