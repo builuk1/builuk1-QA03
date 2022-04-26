@@ -28,16 +28,64 @@ class Fraction:
         return f'{numerator}/{denominator}'
 
     def decimation(self):
-        return self.numerator/self.denominator
+        return self.numerator / self.denominator
 
-#*,-,/ всё для вас
 
-d = Fraction('11/24')
-e = Fraction('5/11')
-print(d)
-print(e)
-print(d, '+', e, '=', d + e)
+# *,-,/ всё для вас
 
-h = Fraction(d+e)
-print(h)
-print(h.decimation())
+# d = Fraction('11/24')
+# e = Fraction('5/11')
+# print(d)
+# print(e)
+# print(d, '+', e, '=', d + e)
+#
+# h = Fraction(d+e)
+# print(h)
+# print(h.decimation())
+
+
+class Human:
+    age = int()  # 0-135
+    gender = str()  # male/female/other
+    height = int()  # cm
+    weight = float()  # kg
+    prof = str()  # child
+    name = str()
+    surname = str()
+    hp = int()  # health point
+    sp = int()  # stamina point
+    streight = int()  # 0-10
+    stamina = int()
+    hungry = int()  # 100 not hungry , 0 very hungry
+    __graduation = str()  # Child / School / Colledge / Univercity
+
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname = surname
+        self.prof = 'child'
+        self.age = 0
+        __graduation = 'Child'
+
+    def __str__(self):
+        return f'Name : {self.name} Surname : {self.surname} Profession : {self.prof}'
+
+    def change_prof(self, new_prof):
+        self.prof = new_prof
+
+    def wait_one_year(self):
+        self.age = self.age + 1
+
+    @property
+    def graduation(self):
+        return self.__graduation
+
+    @graduation.setter
+    def graduation(self,new_graduation):
+        if self.age >= 0 and self.age <= 6 and 'Child' in new_graduation:
+            self.__graduation = new_graduation
+        if self.age >= 6 and self.age <= 15 and 'School' in new_graduation:
+            self.__graduation = new_graduation
+        if self.age >= 15 and self.age <= 20 and 'Colledge' in new_graduation:
+            self.__graduation = new_graduation
+        if self.age >= 18 and self.age <= 22 and 'Univercity' in new_graduation:
+            self.__graduation = new_graduation
